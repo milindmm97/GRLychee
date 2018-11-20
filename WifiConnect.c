@@ -5,6 +5,13 @@
 #define MBED_CONF_APP_WIFI_PASSWORD "Milind@1707"
 ESP32Interface wifi(P5_3,P3_14,P7_1,P0_1,P7_7,P7_6);
 
+// Refer schematics for pins of ESP32
+//P5_3 is en
+//P3_14 is io0
+//P7_1 is TX
+//P0_1 is RX
+//P7_7 and P7_6 is RTS and CTS
+
 
 
 DigitalOut led1(LED1);
