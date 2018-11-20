@@ -11,7 +11,8 @@ int main() {
         
         led1 = !led1;
         wait(0.1);
-        //printf("Hello World!\n\r");
+        printf("Hello World!\n\r");     //trying to print without /n will not work
+                                        //needs to flush buffer
         
         
     }
